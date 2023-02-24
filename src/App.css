@@ -7,22 +7,9 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +22,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.image{
+background-image: url(./components/image.png);
+ height: 100%;
+ width: 100%; 
+ background-size: cover;
+  
+  
+}
+
+.logo{
+  width: 150px;
+ margin-right: 300px
+ 
+ 
+ 
+}
+
+
+.car{
+  display: flex;
+  height: 300px;
+  
+  
+ 
+}
+.search{
+  height:40px;
+}
+
+.movies{
+  
+  
+  display: flex;
+  flex-direction: row;
+  overflow-x:scroll ;
+  scroll-snap-type: x mandatory;
+  
+}
+.movie{
+ padding: 2px;
+ 
+ 
+ 
+}
+.me-auto{
+ margin-left: 100px;
+ font-size:x-large;
+
+}
+.nav-link{
+  margin-left: 50px;
+
+}
+
+.movie-title{
+  display: grid;
+  color: red;
 }
